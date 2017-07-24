@@ -13,6 +13,7 @@ using FormsAutentication.Models;
 namespace FormsAutentication.Controllers
 {
     [Authorize]
+    //test  
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
